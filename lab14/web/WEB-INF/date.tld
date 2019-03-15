@@ -1,0 +1,22 @@
+<taglib>
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>simple</short-name>
+
+    <tag>
+        <name>currentDateTime</name>
+        <tag-class>com.example.MyTagHandler</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>color</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>size</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
